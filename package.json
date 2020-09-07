@@ -1,8 +1,8 @@
 {
-  "name": "react-gh-pages",
+  "name": "react-project-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gitname.github.io/react-gh-pages",
+  "homepage": "http://kattisrik.github.io/React-Project-Demo",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
