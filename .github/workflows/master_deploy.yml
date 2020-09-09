@@ -21,5 +21,5 @@ jobs:
       run: |
         git config --global user.email ${{secrets.EMAIL}}
         git config --global user.name ${{secrets.USERNAME}}
-        git remote set-url origin https://${{ secrets.ACCESS_TOKEN}}@github.com/${{secrets.GITHUB_USERNAME}}/React-Project-Demo.git
+        git remote set-url origin https://${{ secrets.ACCESS_TOKEN}}@github.com/${{secrets.USERNAME}}/React-Project-Demo.git
         npm run deploy
