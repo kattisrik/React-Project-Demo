@@ -23,3 +23,5 @@ jobs:
         git config --global user.name ${{secrets.USERNAME}}
         git remote set-url origin https://${{ secrets.ACCESS_TOKEN}}@github.com/${{secrets.USERNAME}}/React-Project-Demo.git
         npm run deploy
+    - name: Run tests
+      run: npm test
